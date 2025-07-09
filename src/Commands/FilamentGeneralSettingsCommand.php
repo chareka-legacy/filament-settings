@@ -1,6 +1,6 @@
 <?php
 
-namespace Joaopaulolndev\FilamentGeneralSettings\Commands;
+namespace Chareka\FilamentSettings\Commands;
 
 use Illuminate\Console\Command;
 

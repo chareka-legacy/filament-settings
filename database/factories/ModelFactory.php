@@ -1,6 +1,6 @@
 <?php
 
-namespace Joaopaulolndev\FilamentGeneralSettings\Database\Factories;
+namespace Chareka\FilamentSettings\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

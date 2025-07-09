@@ -1,12 +1,12 @@
 <?php
 
-namespace Joaopaulolndev\FilamentGeneralSettings\Forms;
+namespace Chareka\FilamentSettings\Forms;
 
+use Chareka\FilamentSettings\Enums\EmailProviderEnum;
 use Filament\Forms;
 use Filament\Forms\Components\Section;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
-use Joaopaulolndev\FilamentGeneralSettings\Enums\EmailProviderEnum;
 
 class EmailFieldsForm
 {

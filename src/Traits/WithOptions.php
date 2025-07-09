@@ -1,6 +1,6 @@
 <?php
 
-namespace Joaopaulolndev\FilamentGeneralSettings\Traits;
+namespace Chareka\FilamentSettings\Traits;
 
 trait WithOptions
 {

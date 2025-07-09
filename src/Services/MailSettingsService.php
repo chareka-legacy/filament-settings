@@ -1,6 +1,6 @@
 <?php
 
-namespace Joaopaulolndev\FilamentGeneralSettings\Services;
+namespace Chareka\FilamentSettings\Services;
 
 class MailSettingsService
 {

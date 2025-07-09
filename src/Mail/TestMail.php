@@ -1,6 +1,6 @@
 <?php
 
-namespace Joaopaulolndev\FilamentGeneralSettings\Mail;
+namespace Chareka\FilamentSettings\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;

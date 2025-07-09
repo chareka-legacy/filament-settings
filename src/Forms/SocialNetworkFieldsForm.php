@@ -1,9 +1,9 @@
 <?php
 
-namespace Joaopaulolndev\FilamentGeneralSettings\Forms;
+namespace Chareka\FilamentSettings\Forms;
 
+use Chareka\FilamentSettings\Enums\SocialNetworkEnum;
 use Filament\Forms\Components\TextInput;
-use Joaopaulolndev\FilamentGeneralSettings\Enums\SocialNetworkEnum;
 
 class SocialNetworkFieldsForm
 {

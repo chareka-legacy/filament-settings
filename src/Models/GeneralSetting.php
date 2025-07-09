@@ -1,6 +1,6 @@
 <?php
 
-namespace Joaopaulolndev\FilamentGeneralSettings\Models;
+namespace Chareka\FilamentSettings\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

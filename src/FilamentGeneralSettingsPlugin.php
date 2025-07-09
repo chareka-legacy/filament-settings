@@ -1,13 +1,13 @@
 <?php
 
-namespace Joaopaulolndev\FilamentGeneralSettings;
+namespace Chareka\FilamentSettings;
 
+use Chareka\FilamentSettings\Middleware\FilamentGeneralSettingsMiddleware;
+use Chareka\FilamentSettings\Pages\GeneralSettingsPage;
 use Closure;
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 use Filament\Support\Concerns\EvaluatesClosures;
-use Joaopaulolndev\FilamentGeneralSettings\Middleware\FilamentGeneralSettingsMiddleware;
-use Joaopaulolndev\FilamentGeneralSettings\Pages\GeneralSettingsPage;
 
 class FilamentGeneralSettingsPlugin implements Plugin
 {

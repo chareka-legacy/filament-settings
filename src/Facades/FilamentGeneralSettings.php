@@ -1,16 +1,16 @@
 <?php
 
-namespace Joaopaulolndev\FilamentGeneralSettings\Facades;
+namespace Chareka\FilamentSettings\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Joaopaulolndev\FilamentGeneralSettings\FilamentGeneralSettings
+ * @see \Chareka\FilamentSettings\FilamentGeneralSettings
  */
 class FilamentGeneralSettings extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \Joaopaulolndev\FilamentGeneralSettings\FilamentGeneralSettings::class;
+        return \Chareka\FilamentSettings\FilamentGeneralSettings::class;
     }
 }

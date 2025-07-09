@@ -1,6 +1,6 @@
 <?php
 
-namespace Joaopaulolndev\FilamentGeneralSettings\Helpers;
+namespace Chareka\FilamentSettings\Helpers;
 
 class EmailDataHelper
 {

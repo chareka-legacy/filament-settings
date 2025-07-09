@@ -1,8 +1,8 @@
 <?php
 
-namespace Joaopaulolndev\FilamentGeneralSettings\Helpers;
+namespace Chareka\FilamentSettings\Helpers;
 
-use Joaopaulolndev\FilamentGeneralSettings\Enums\SocialNetworkEnum;
+use Chareka\FilamentSettings\Enums\SocialNetworkEnum;
 
 class SocialNetworkDataHelper
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Joaopaulolndev\FilamentGeneralSettings\Testing;
+namespace Chareka\FilamentSettings\Testing;
 
 use Livewire\Features\SupportTesting\Testable;
 

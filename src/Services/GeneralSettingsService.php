@@ -1,9 +1,9 @@
 <?php
 
-namespace Joaopaulolndev\FilamentGeneralSettings\Services;
+namespace Chareka\FilamentSettings\Services;
 
+use Chareka\FilamentSettings\Models\GeneralSetting;
 use Illuminate\Support\Facades\Cache;
-use Joaopaulolndev\FilamentGeneralSettings\Models\GeneralSetting;
 
 class GeneralSettingsService
 {

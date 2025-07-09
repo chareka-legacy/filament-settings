@@ -1,7 +1,9 @@
 <?php
 
-namespace Joaopaulolndev\FilamentGeneralSettings;
+namespace Chareka\FilamentSettings;
 
+use Chareka\FilamentSettings\Commands\FilamentGeneralSettingsCommand;
+use Chareka\FilamentSettings\Testing\TestsFilamentGeneralSettings;
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Asset;
 use Filament\Support\Assets\Css;
@@ -9,14 +11,12 @@ use Filament\Support\Assets\Js;
 use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
 use Illuminate\Filesystem\Filesystem;
-use Joaopaulolndev\FilamentGeneralSettings\Commands\FilamentGeneralSettingsCommand;
-use Joaopaulolndev\FilamentGeneralSettings\Testing\TestsFilamentGeneralSettings;
 use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class FilamentGeneralSettingsServiceProvider extends PackageServiceProvider
+class FilamentSettingsServiceProvider extends PackageServiceProvider
 {
     public static string $name = 'filament-general-settings';
 

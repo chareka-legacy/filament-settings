@@ -1,11 +1,11 @@
 <?php
 
-namespace Joaopaulolndev\FilamentGeneralSettings\Middleware;
+namespace Chareka\FilamentSettings\Middleware;
 
+use Chareka\FilamentSettings\Models\GeneralSetting;
 use Closure;
 use Filament\Support\Facades\FilamentColor;
 use Illuminate\Http\Request;
-use Joaopaulolndev\FilamentGeneralSettings\Models\GeneralSetting;
 use Symfony\Component\HttpFoundation\Response;
 
 class FilamentGeneralSettingsMiddleware

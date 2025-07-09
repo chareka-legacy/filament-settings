@@ -1,6 +1,6 @@
 <?php
 
-namespace Joaopaulolndev\FilamentGeneralSettings\Forms;
+namespace Chareka\FilamentSettings\Forms;
 
 use Filament\Forms\Components\ColorPicker;
 use Filament\Forms\Components\FileUpload;

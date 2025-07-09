@@ -1,5 +1,5 @@
 <?php
 
-namespace Joaopaulolndev\FilamentGeneralSettings;
+namespace Chareka\FilamentSettings;
 
 class FilamentGeneralSettings {}

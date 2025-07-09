@@ -1,8 +1,8 @@
 <?php
 
-namespace Joaopaulolndev\FilamentGeneralSettings\Enums;
+namespace Chareka\FilamentSettings\Enums;
 
-use Joaopaulolndev\FilamentGeneralSettings\Traits\WithOptions;
+use Chareka\FilamentSettings\Traits\WithOptions;
 
 enum TypeFieldEnum: string
 {

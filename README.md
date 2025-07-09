@@ -82,7 +82,7 @@ return [
 Optionally, if you would like to add custom tabs and custom fields follow the example on configuration using the keys `show_custom_tabs` and `custom_tabs`.
 
 ```php
-use Joaopaulolndev\FilamentGeneralSettings\Enums\TypeFieldEnum;
+use Chareka\FilamentSettings\Enums\TypeFieldEnum;
 
 return [
     'show_application_tab' => true,
@@ -162,9 +162,10 @@ return [
 ```
 ## Usage
 Add in AdminPanelProvider.php
+
 ```php
 
-use Joaopaulolndev\FilamentGeneralSettings\FilamentGeneralSettingsPlugin;
+use Chareka\FilamentSettings\FilamentGeneralSettingsPlugin;
 
 ...
 

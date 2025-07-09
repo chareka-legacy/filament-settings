@@ -1,7 +1,17 @@
 <?php
 
-namespace Joaopaulolndev\FilamentGeneralSettings\Pages;
+namespace Chareka\FilamentSettings\Pages;
 
+use Chareka\FilamentSettings\Forms\AnalyticsFieldsForm;
+use Chareka\FilamentSettings\Forms\ApplicationFieldsForm;
+use Chareka\FilamentSettings\Forms\CustomForms;
+use Chareka\FilamentSettings\Forms\EmailFieldsForm;
+use Chareka\FilamentSettings\Forms\SeoFieldsForm;
+use Chareka\FilamentSettings\Forms\SocialNetworkFieldsForm;
+use Chareka\FilamentSettings\Helpers\EmailDataHelper;
+use Chareka\FilamentSettings\Mail\TestMail;
+use Chareka\FilamentSettings\Models\GeneralSetting;
+use Chareka\FilamentSettings\Services\MailSettingsService;
 use Filament\Actions;
 use Filament\Facades\Filament;
 use Filament\Forms\Components\Tabs;
@@ -11,16 +21,6 @@ use Filament\Pages\Page;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
-use Joaopaulolndev\FilamentGeneralSettings\Forms\AnalyticsFieldsForm;
-use Joaopaulolndev\FilamentGeneralSettings\Forms\ApplicationFieldsForm;
-use Joaopaulolndev\FilamentGeneralSettings\Forms\CustomForms;
-use Joaopaulolndev\FilamentGeneralSettings\Forms\EmailFieldsForm;
-use Joaopaulolndev\FilamentGeneralSettings\Forms\SeoFieldsForm;
-use Joaopaulolndev\FilamentGeneralSettings\Forms\SocialNetworkFieldsForm;
-use Joaopaulolndev\FilamentGeneralSettings\Helpers\EmailDataHelper;
-use Joaopaulolndev\FilamentGeneralSettings\Mail\TestMail;
-use Joaopaulolndev\FilamentGeneralSettings\Models\GeneralSetting;
-use Joaopaulolndev\FilamentGeneralSettings\Services\MailSettingsService;
 
 class GeneralSettingsPage extends Page
 {
@@ -150,6 +150,7 @@ class GeneralSettingsPage extends Page
                     ->icon($customTab['icon'])
                     ->schema(CustomForms::get($customTab['fields']))
                     ->columns($customTab['columns'])
+                    ->visible($customTab['visible'] ?? true)
                     ->statePath('more_configs');
             }
         }
